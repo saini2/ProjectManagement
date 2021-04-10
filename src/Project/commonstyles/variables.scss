@@ -1,0 +1,162 @@
+$Buttonblue: #2484e880;
+$Bblue: #002e6e;
+$Dgreen: #00c673;
+$Shadow: #0000001f;
+$Mobile: #86a0c2;
+$LBlue: #536e92;
+$Hblue: #29394f;
+$Bwhite: #f2f7f8;
+$Dwhite: #e6ebf3;
+$Black: #000;
+$White: #fff;
+$Blue: #00b9f5;
+$Blue1: #00bbfb;
+$DBlue: #012b72;
+$Red: #ff4b55;
+$Yellow: #f5a623;
+$Green: #09ac63;
+$Orange: #ffa500;
+$borderCol: #ebebeb;
+$DBlack: #182233;
+$TextCol: #222;
+$LBlack: #333;
+$LLBlack: #666666;
+$DGrey: #444;
+$LGrey: #999;
+$subTextCol: #7b93b4;
+$greyBG: #fafcfb;
+$insuText: #f05a22;
+$GreyBorder: #e0e6ea;
+$lightGrey: #f3f7f8;
+$lightBlue: #eafaff;
+$Black1: #24272c;
+$Grey: #86a0c2;
+$Grey1: #f6f8fc;
+$Gold: #ff9e00;
+$Grey2: #536e92;
+$VLGrey: #f7f8fa;
+$Brown: #3e3e58;
+
+$Theme: #7e6bf0;
+
+.clear {
+  clear: both;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.whiteBG {
+  background: $White;
+}
+
+.blueBG {
+  background: $DBlue;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.BB {
+  border-bottom: 1px solid $borderCol;
+}
+
+.Bfull {
+  border: 1px solid $borderCol;
+}
+
+.BT {
+  border-top: 1px solid $borderCol;
+}
+
+@mixin fontStyle($size: false, $color: false, $weight: false) {
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $color {
+    color: $color;
+  }
+
+  @if $weight {
+    font-weight: $weight;
+  }
+}
+
+@mixin ellipsis($line) {
+  text-overflow: ellipsis;
+}
+
+@mixin align($content, $items) {
+  justify-content: $content;
+  align-items: $items;
+}
+
+@mixin widthHeight($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin fontIcon($size, $color: false) {
+  font-size: $size;
+
+  @if $color {
+    color: $color;
+  }
+}
+
+@mixin popupFull($position, $top, $right, $bottom, $left) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin padd($top, $right, $bottom, $left) {
+  padding-top: $top;
+  padding-right: $right;
+  padding-bottom: $bottom;
+  padding-left: $left;
+}
+
+@mixin marg($top, $right, $bottom, $left) {
+  margin-top: $top;
+  margin-right: $right;
+  margin-bottom: $bottom;
+  margin-left: $left;
+}
+
+@mixin textTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

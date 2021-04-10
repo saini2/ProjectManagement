@@ -1,0 +1,419 @@
+/* stylelint-disable */
+@import "./color-variables.scss";
+
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.Hairline.otf) format("opentype");
+
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+ 
+}
+
+/* vietnamese */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* vietnamese */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+ 
+}
+
+/* vietnamese */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* vietnamese */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+  
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+ 
+}
+
+/* vietnamese */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+  
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+  
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+ 
+}
+
+/* vietnamese */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf) format("opentype");
+
+}
+
+/* latin-ext */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.Bold.otf) format("opentype");
+  
+}
+
+/* latin */
+@font-face {
+  font-family: "MarkPro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(./Fonts/FontFont_FF.Mark.Pro.Bold.otf) format("opentype");
+  
+}
+/* italic */
+@font-face {
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./Fonts/sanchez/Sanchezregular-ita.otf) format("opentype"); 
+}
+/* regular */
+@font-face {
+  font-family: "Sanchez";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./Fonts/sanchez/Sanchezregular.otf) format("opentype"); 
+}
+/* league spartan */
+@font-face {
+  font-family:"LeagueSpartan";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url(./Fonts/LeagueSpartan/LeagueSpartan-Bold.otf) format("opentype");
+}
+/* Open Sans - bold */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-Bold.ttf) format("opentype");
+}
+/* Open sans - bold italic */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-BoldItalic.ttf) format("opentype");
+}
+/* Open Sans - extra bold */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-ExtraBold.ttf) format("opentype");
+}
+/* Open Sans - extra bold italic */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf) format("opentype");
+}
+
+/* Open Sans - italic */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-Italic.ttf) format("opentype");
+}
+/* Open Sans - light font */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-Light.ttf) format("opentype");
+}
+
+/* Open Sans - light Italic font */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-LightItalic.ttf) format("opentype");
+}
+
+/* Open Sans - regular font */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-Regular.ttf) format("opentype");
+}
+/* Open Sans - Semi bold font */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-Semibold.ttf) format("opentype");
+}
+/* Open Sans - Semi bold italic font */
+@font-face {
+  font-family:"OpenSans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./Fonts/OpenSans/OpenSans-SemiboldItalic.ttf) format("opentype");
+}
+
+body{
+  font-family:"OpenSans"
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: $Blue;
+  cursor: pointer;
+}
+
+iframe {
+  border: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  @extend .show;
+}
+
+body,
+button,
+input,
+pre,
+select,
+textarea {
+  font-display: auto;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  line-height: 1.5px;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: $White;
+  height: 100%;
+  margin: 0 auto;
+  @include fontStyle(14px, $DBlack, 400);
+  @extend .fullWidth;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button:focus,
+div[role="button"]:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans, Helvetica, Arial;
+}
+
+/* stylelint-enable */
